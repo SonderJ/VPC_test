@@ -1,4 +1,7 @@
-variable "ssh_key" {}
+variable "ssh_key" {
+  default = ""
+  description = "past your public ssh-key here"
+  }
 variable "resource_group" {}
 
 provider "ibm" {
