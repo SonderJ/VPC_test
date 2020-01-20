@@ -1,5 +1,5 @@
 variable "ssh_key" {
-  default = ""
+  default = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFbo3/teuut7BC0Vs8Yr0pn+1FcwKUp0/i+iplMKEYPWM8L5Jm+3aArGJ+eop+ryBsJMsaMlTgEqXa5SP1cC6+frlc4E9xBtFM1+DnZFH1STwdF9lto/YHJ2HP+WgESg4pg3cESH6qc5GAZ6u7OPGQe70CTg+I3hpJ20oeXKsrH0Inhp3SDKkrezTJMUkqORdh1022HK6ylfHWosd4/3Vqk2cDlf71Qs9fX8S5/fhxxkBPBUthzNhmBaMwb1P2YTDEuOlzepzDYurCjCFb3NBtYq/DWb0aYit1IXDTuG8E87RhUvddm4JSausZxVNGLiX9/SdZExT/SCNidp0xafud jsonder"
   description = "past your public ssh-key here"
   }
 variable "resource_group" {}
