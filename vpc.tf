@@ -1,5 +1,5 @@
 locals {
-  BASENAME = "js_schematics" 
+  BASENAME = "js" 
   ZONE     = "eu-de-1"
 }
 
