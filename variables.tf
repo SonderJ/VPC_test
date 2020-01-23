@@ -4,7 +4,7 @@ variable "ssh_key" {
   }
 
 variable "resource_group" {
-  default = "default"
+  default = "js_tf_test_rg"
   description = "Group resources to organize and assign access to the group. Available for all resources managed by IBM Cloud Identity and Access Management. Use the following CLI command to  retrieve all resource groups: ibmcloud resource groups"
   }
 
