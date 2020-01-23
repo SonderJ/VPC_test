@@ -1,4 +1,4 @@
 provider "ibm" {
-  generation = "${vpc_generation}"
+  generation = "1"
   region = "${reg}"
 }
