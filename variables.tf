@@ -8,11 +8,6 @@ variable "resource_group" {
   description = "Group resources to organize and assign access to the group. Available for all resources managed by IBM Cloud Identity and Access Management. Use the following CLI command to  retrieve all resource groups: ibmcloud resource groups"
   }
 
-variable "vpc_generation" {
-  default = "1"
-  description = "VPC Generation you want to use"
-  }
-
 variable "reg" {
   default = "eu-de"
   description = "VPC region you want to use"
